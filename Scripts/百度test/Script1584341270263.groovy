@@ -22,10 +22,8 @@ WebUI.openBrowser('www.baidu.com')
 WebUI.maximizeWindow()
 
 '输入搜索值“大时信息科技有限公司”'
-WebUI.sendKeys(findTestObject('baidu/百度输入框'), '大时信息科技有限公司')
+WebUI.sendKeys(findTestObject('baidu/百度输入框'), sousuo)
 
 '点击百度一下按钮'
 WebUI.click(findTestObject('baidu/百度一下'))
-
-WebUI.closeBrowser()
 
